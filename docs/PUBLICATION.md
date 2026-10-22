@@ -4,7 +4,7 @@ Date: 2026-10-22 (Asia/Taipei).
 
 Repository: https://github.com/zhuang768/after-school
 
-The project owner explicitly authorized a public GitHub repository. This publishes source code only; it does not deploy a website or approve the remaining acceptance tests.
+The project owner explicitly authorized a public GitHub repository, then separately authorized public deployment to Cloudflare on 2026-10-22. Neither approval marks the remaining acceptance tests as passed.
 
 ## Privacy of the public snapshot
 
@@ -23,4 +23,4 @@ The latest acceptance status is 10 of 13 P0 areas verified. Publishing does not 
 
 Continue public development from `codex/public-release`. Push that branch to GitHub `main`; do not push the private local history or use `git push --all`. The project-specific remote push mapping selects only the public branch.
 
-GitHub Actions results and the canonical commit are visible on the repository. The public source has no hosted application URL yet.
+GitHub Actions results and the canonical commit are visible on the repository. The hosted application is [after-school-ug9.pages.dev](https://after-school-ug9.pages.dev/). See [deployment instructions](./DEPLOYMENT.md) for the static hosting configuration.

@@ -1,5 +1,7 @@
 # After School
 
+Use the app: **[after-school-ug9.pages.dev](https://after-school-ug9.pages.dev/)**.
+
 After School is a local web app for students who are about to lose a school email address. It helps you list accounts that likely used that address, change the login email, export files, and plan the work before access ends. It does not transfer ownership of an account, and it does not promise that a school can restore data.
 
 Your mailbox export, notes, and progress stay in this browser. The app has no account, no analytics, and no server.
@@ -50,6 +52,6 @@ Source repository: [zhuang768/after-school](https://github.com/zhuang768/after-s
 
 This is a release candidate with **10 of 13 P0 acceptance areas fully verified**. Real Google/Apple/Outlook calendar import and reminder delivery, the complete installed offline mailbox flow, screen-reader use, and physical mobile-device checks still need verification. See [current acceptance status](docs/FINAL_ACCEPTANCE_STATUS.md) and [manual verification steps](docs/USER_VERIFICATION_CHECKLIST.md).
 
-There is no deployed website yet. Making this source repository public does not mark the remaining tests as passed or deploy an application. Only synthetic mail was used during development. Raw local acceptance artifacts remain in ignored `output/` and are not included in this repository.
+The public website is hosted as static assets on Cloudflare Pages. See [deployment instructions](docs/DEPLOYMENT.md). Publication does not mark the remaining acceptance tests as passed. Only synthetic mail was used during development. Raw local acceptance artifacts remain in ignored `output/` and are not included in this repository.
 
 The public branch starts with a clean source snapshot and a GitHub noreply author address. Earlier local Git history and personal home-directory paths were not published. See [publication notes](docs/PUBLICATION.md).
