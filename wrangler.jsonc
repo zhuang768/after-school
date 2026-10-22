@@ -1,0 +1,14 @@
+{
+  "name": "after-school",
+  "compatibility_date": "2026-10-22",
+  "workers_dev": true,
+  "preview_urls": false,
+  "assets": {
+    "directory": "./dist",
+    "html_handling": "none",
+    "not_found_handling": "single-page-application",
+  },
+  "observability": {
+    "enabled": false,
+  },
+}

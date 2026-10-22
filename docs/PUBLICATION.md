@@ -23,4 +23,4 @@ The latest acceptance status is 10 of 13 P0 areas verified. Publishing does not 
 
 Continue public development from `codex/public-release`. Push that branch to GitHub `main`; do not push the private local history or use `git push --all`. The project-specific remote push mapping selects only the public branch.
 
-GitHub Actions results and the canonical commit are visible on the repository. The hosted application is [after-school-ug9.pages.dev](https://after-school-ug9.pages.dev/). See [deployment instructions](./DEPLOYMENT.md) for the static hosting configuration.
+GitHub Actions results and the canonical commit are visible on the repository. The hosted application is [after-school.ziz81503.workers.dev](https://after-school.ziz81503.workers.dev/). See [deployment instructions](./DEPLOYMENT.md) for the static hosting configuration and the unresolved Cloudflare NEL reporting policy. Public deployment does not count as passing that privacy requirement.

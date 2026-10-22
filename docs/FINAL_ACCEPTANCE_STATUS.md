@@ -1,5 +1,7 @@
 # 目前驗收與交付狀態
 
+> 2026-10-22 Cloudflare 公開部署補充：可開啟的網站為 [after-school.ziz81503.workers.dev](https://after-school.ziz81503.workers.dev/)。正式網址 11 項操作測試通過，但 Cloudflare 的 NEL 連線錯誤回報標頭仍存在；使用者未核准此例外，所以公開主機的完全零外連驗收尚未通過。下方 10/13 是先前本機驗收紀錄，不能當作本次主機隱私已通過。詳見 [DEPLOYMENT.md](./DEPLOYMENT.md)。
+
 > 2026-10-22 GitHub 原始碼公開交付：[zhuang768/after-school](https://github.com/zhuang768/after-school)。使用乾淨公開快照與 GitHub noreply 署名，舊本機歷史保留且不推送。這不包含網站部署，也不把剩餘驗收改成通過。下文過往「未授權／未推送／無 remote」為發布前歷史；目前發布方式見 [PUBLICATION.md](./PUBLICATION.md)。
 
 2026-10-22（Asia/Taipei）。功能版本 `53253a5a76a63045d14f3bfa10b736bb5da67d12`，分支 `feat/local-migration-workspace`。這是第 6 輪補驗，不新增修正輪次。
