@@ -10,7 +10,9 @@ The project owner authorized public Cloudflare deployment on 2026-10-22. The Clo
 
 This is a static Pages deployment. There are no Pages Functions, server-side mail processing, application secrets, database bindings, analytics scripts, or OAuth integration. Mail and workspace content are processed in the browser. Hosting necessarily serves the public HTML, scripts, styles, icon, manifest and service worker over HTTPS.
 
-The app's existing CSP remains unchanged. The deployment additionally sends it as an HTTP header, including `connect-src 'none'` and `frame-ancestors 'none'`. The header configuration also disables framing and MIME sniffing, uses a no-referrer policy, and requests revalidation of the page and service worker.
+The app's existing CSP remains unchanged. The deployment additionally sends it as an HTTP header on the document and application assets, including `connect-src 'none'` and `frame-ancestors 'none'`. The service worker has its own `connect-src 'self'` policy because it must fetch the same-origin static files for offline caching. It cannot connect to other origins. The header configuration also disables framing and MIME sniffing, uses a no-referrer policy, and requests revalidation of the page and service worker.
+
+The header rules request removal of host-provided NEL/Report-To/Reporting-Endpoints headers. Live HTTP checks must verify whether the hosting edge honors this; a configuration entry alone is not evidence that reporting was disabled.
 
 ## Build and publish
 
