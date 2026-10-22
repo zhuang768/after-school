@@ -1,0 +1,11 @@
+{
+  "name": "After School",
+  "short_name": "After School",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#f3efe4",
+  "theme_color": "#1e4a38",
+  "lang": "en",
+  "icons": [{ "src": "/icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any" }]
+}

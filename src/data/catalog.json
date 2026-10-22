@@ -1,0 +1,1324 @@
+[
+  {
+    "id": "google",
+    "name": "Google",
+    "category": "Cloud storage",
+    "domains": ["google.com", "gmail.com", "googlemail.com"],
+    "email": {
+      "status": "restricted",
+      "steps": [
+        "A school-managed Google Account email has to be changed by the administrator, according to Google Account Help.",
+        "A personal @gmail.com address can be changed from myaccount.google.com/google-account-email, Personal info, Email, then Change Google Account email, if that control is shown.",
+        "Google says the old @gmail.com address stays as an alternate and data such as photos and mail stays in the account."
+      ],
+      "url": "https://support.google.com/accounts/answer/19870?hl=en"
+    },
+    "export": {
+      "status": "verified",
+      "steps": [
+        "While signed in, open Google Takeout, clear products you do not want, and select Next step.",
+        "Choose a delivery method such as an email download link, then Create export. Google says the archive can take minutes to days and that a download does not delete the data.",
+        "On a school account, Transfer your content at the school account can copy Gmail (not contacts, chats, or tasks), Drive files you own, and eligible Photos to another Google Account if the school has allowed it. Copies leave the originals in place.",
+        "Google\u2019s Gmail export help says a school account may not be able to download every kind of mail data."
+      ],
+      "url": "https://support.google.com/accounts/answer/3024190?hl=en"
+    },
+    "education": {
+      "available": "unverified",
+      "impact": "Google says school admins control Takeout transfer. How long a school keeps the account is not a single Google-wide rule."
+    },
+    "deletion": {
+      "status": "unverified",
+      "steps": ["Unverified. A current official procedure was not confirmed on 2026-10-19."]
+    },
+    "verifiedAt": "2026-10-19",
+    "sources": [
+      "https://support.google.com/accounts/answer/19870?hl=en",
+      "https://support.google.com/accounts/answer/3024190?hl=en",
+      "https://support.google.com/accounts/answer/6386856?hl=en",
+      "https://support.google.com/mail/answer/10016932?hl=en"
+    ]
+  },
+  {
+    "id": "youtube",
+    "name": "YouTube",
+    "category": "Entertainment",
+    "domains": ["youtube.com"],
+    "email": {
+      "status": "restricted",
+      "steps": [
+        "YouTube uses a Google Account. Google says a school-managed address is changed through the administrator.",
+        "Takeout\u2019s YouTube section says a Brand Account\u2019s videos are downloaded only while you are switched into that Brand Account."
+      ],
+      "url": "https://support.google.com/accounts/answer/3024190?hl=en"
+    },
+    "export": {
+      "status": "verified",
+      "steps": [
+        "In Google Takeout, include YouTube. Google says the archive is created after you choose a delivery method and select Create export.",
+        "If videos are missing, Google says to check whether they belong to a Brand Account and switch into it before exporting."
+      ],
+      "url": "https://support.google.com/accounts/answer/3024190?hl=en"
+    },
+    "education": {
+      "available": "unverified",
+      "impact": "Unverified. No current official note about a student plan or email-change effect was confirmed on 2026-10-19."
+    },
+    "deletion": {
+      "status": "unverified",
+      "steps": ["Unverified. A current official procedure was not confirmed on 2026-10-19."]
+    },
+    "verifiedAt": "2026-10-19",
+    "sources": [
+      "https://support.google.com/accounts/answer/3024190?hl=en",
+      "https://support.google.com/accounts/answer/19870?hl=en"
+    ]
+  },
+  {
+    "id": "microsoft",
+    "name": "Microsoft account",
+    "category": "Productivity",
+    "domains": [
+      "microsoft.com",
+      "live.com",
+      "outlook.com",
+      "hotmail.com",
+      "office.com",
+      "office365.com"
+    ],
+    "email": {
+      "status": "verified",
+      "steps": [
+        "Sign in at account.live.com/names/manage and choose Add email or Remove next to an existing alias.",
+        "Microsoft says aliases share one password and can be used to sign in. A verification code by email goes to the primary alias or another verification address.",
+        "This is the personal Microsoft account flow. A school Microsoft 365 address is managed by the school."
+      ],
+      "url": "https://support.microsoft.com/en-us/accounts-billing/manage/change-the-email-address-or-phone-number-for-your-microsoft-account"
+    },
+    "export": {
+      "status": "verified",
+      "steps": [
+        "Microsoft\u2019s student transition guide says to export the school mailbox and calendar, move contacts with Outlook import/export, and move OneDrive files to storage you control.",
+        "The same guide points to Outlook\u2019s file import and export for contacts. This app does not read .pst files."
+      ],
+      "url": "https://support.microsoft.com/en-us/education/transition-your-files-a-student-s-guide"
+    },
+    "education": {
+      "available": "yes",
+      "impact": "Microsoft\u2019s education admin article says schools may assign Exchange Online for Alumni. If a student license is reclaimed, mailbox data is held 30 days and then deleted, with legal-hold exceptions. OneDrive is not deleted by that license change alone. Your school chooses the actual policy.",
+      "url": "https://support.microsoft.com/en-us/education/manage-graduating-student-licenses-and-content-in-microsoft-365-education"
+    },
+    "deletion": {
+      "status": "unverified",
+      "steps": ["Unverified. A current official procedure was not confirmed on 2026-10-19."]
+    },
+    "verifiedAt": "2026-10-19",
+    "sources": [
+      "https://support.microsoft.com/en-us/accounts-billing/manage/change-the-email-address-or-phone-number-for-your-microsoft-account",
+      "https://support.microsoft.com/en-us/education/transition-your-files-a-student-s-guide",
+      "https://support.microsoft.com/en-us/education/manage-graduating-student-licenses-and-content-in-microsoft-365-education"
+    ]
+  },
+  {
+    "id": "onedrive",
+    "name": "OneDrive",
+    "category": "Cloud storage",
+    "domains": ["onedrive.com", "sharepoint.com"],
+    "email": {
+      "status": "restricted",
+      "steps": [
+        "School OneDrive access ends when the school reclaims the Microsoft 365 Education license, according to Microsoft\u2019s graduating-student article. Ask the school before that happens.",
+        "A personal Microsoft account alias is changed at account.live.com/names/manage, which is a different account from a school mailbox."
+      ],
+      "url": "https://support.microsoft.com/en-us/education/manage-graduating-student-licenses-and-content-in-microsoft-365-education"
+    },
+    "export": {
+      "status": "verified",
+      "steps": [
+        "Microsoft\u2019s student guide says to move personal documents out of school OneDrive to a local drive, a USB drive, or another OneDrive that you manage.",
+        "The guide also links a school-file transfer flow. Files you do not own may not move with you."
+      ],
+      "url": "https://support.microsoft.com/en-us/education/transition-your-files-a-student-s-guide"
+    },
+    "education": {
+      "available": "yes",
+      "impact": "Microsoft says OneDrive content is not deleted merely because the student license is reclaimed, but you lose access to the school service. Confirm retention with your school.",
+      "url": "https://support.microsoft.com/en-us/education/manage-graduating-student-licenses-and-content-in-microsoft-365-education"
+    },
+    "deletion": {
+      "status": "unverified",
+      "steps": ["Unverified. A current official procedure was not confirmed on 2026-10-19."]
+    },
+    "verifiedAt": "2026-10-19",
+    "sources": [
+      "https://support.microsoft.com/en-us/education/transition-your-files-a-student-s-guide",
+      "https://support.microsoft.com/en-us/education/manage-graduating-student-licenses-and-content-in-microsoft-365-education",
+      "https://support.microsoft.com/en-us/accounts-billing/manage/change-the-email-address-or-phone-number-for-your-microsoft-account"
+    ]
+  },
+  {
+    "id": "onenote",
+    "name": "OneNote",
+    "category": "Productivity",
+    "domains": ["onenote.com"],
+    "email": {
+      "status": "restricted",
+      "steps": [
+        "School OneNote notebooks sit on the school Microsoft 365 account. Microsoft says reclaiming that license removes access to the school online services."
+      ],
+      "url": "https://support.microsoft.com/en-us/education/manage-graduating-student-licenses-and-content-in-microsoft-365-education"
+    },
+    "export": {
+      "status": "verified",
+      "steps": [
+        "Microsoft\u2019s student guide says to save a copy of school OneNote notebooks, Teams assignments, and class materials into a personal account."
+      ],
+      "url": "https://support.microsoft.com/en-us/education/transition-your-files-a-student-s-guide"
+    },
+    "education": {
+      "available": "unverified",
+      "impact": "Unverified. No current official note about a student plan or email-change effect was confirmed on 2026-10-19."
+    },
+    "deletion": {
+      "status": "unverified",
+      "steps": ["Unverified. A current official procedure was not confirmed on 2026-10-19."]
+    },
+    "verifiedAt": "2026-10-19",
+    "sources": [
+      "https://support.microsoft.com/en-us/education/manage-graduating-student-licenses-and-content-in-microsoft-365-education",
+      "https://support.microsoft.com/en-us/education/transition-your-files-a-student-s-guide"
+    ]
+  },
+  {
+    "id": "dropbox",
+    "name": "Dropbox",
+    "category": "Cloud storage",
+    "domains": ["dropbox.com"],
+    "email": {
+      "status": "verified",
+      "steps": [
+        "Sign in at dropbox.com, open your avatar, then Settings.",
+        "On the General tab, choose Edit next to the email address, enter the new address twice and your password, then Update email.",
+        "Open the verification message sent to the new address and choose Verify your email. Dropbox says this does not update the separate recovery email.",
+        "If you see an info icon instead of Edit, Dropbox says an admin has to change it."
+      ],
+      "url": "https://help.dropbox.com/account-settings/change-email"
+    },
+    "export": {
+      "status": "verified",
+      "steps": [
+        "Dropbox says files already synced in the desktop or mobile app are on that device. Link a device or adjust selective sync to download folders that are not local yet."
+      ],
+      "url": "https://help.dropbox.com/account-access/access-personal-information"
+    },
+    "education": {
+      "available": "unverified",
+      "impact": "Unverified. No current official note about a student plan or email-change effect was confirmed on 2026-10-19."
+    },
+    "deletion": {
+      "status": "unverified",
+      "steps": ["Unverified. A current official procedure was not confirmed on 2026-10-19."]
+    },
+    "verifiedAt": "2026-10-19",
+    "sources": [
+      "https://help.dropbox.com/account-settings/change-email",
+      "https://help.dropbox.com/account-access/access-personal-information"
+    ]
+  },
+  {
+    "id": "box",
+    "name": "Box",
+    "category": "Cloud storage",
+    "domains": ["box.com"],
+    "email": {
+      "status": "verified",
+      "steps": [
+        "Box\u2019s account-settings guide says to add and confirm the new email, choose Make Primary, then remove the old address if you no longer need it.",
+        "Paid accounts use Link Email. Free accounts use Link Personal Email. Enter the address, Save, and open the verification link.",
+        "If Make Primary is missing, Box says an enterprise control such as single sign-on may block the change. Ask the admin.",
+        "With single sign-on, Box says end users cannot change the primary email. The admin changes it in the Admin Console and in the organization\u2019s directory before the next login."
+      ],
+      "url": "https://docs.box.com/en/box-fundamentals/for-users/user-login-and-settings/manage-account-settings"
+    },
+    "export": {
+      "status": "unverified",
+      "steps": ["Unverified. A current official procedure was not confirmed on 2026-10-19."]
+    },
+    "education": {
+      "available": "unverified",
+      "impact": "Unverified. No current official note about a student plan or email-change effect was confirmed on 2026-10-19."
+    },
+    "deletion": {
+      "status": "unverified",
+      "steps": ["Unverified. A current official procedure was not confirmed on 2026-10-19."]
+    },
+    "verifiedAt": "2026-10-19",
+    "sources": [
+      "https://docs.box.com/en/box-fundamentals/for-users/user-login-and-settings/manage-account-settings",
+      "https://support.box.com/hc/en-us/articles/360043692934-Changing-an-Email-Address-for-a-Single-Sign-On-Account"
+    ]
+  },
+  {
+    "id": "github",
+    "name": "GitHub",
+    "category": "Development",
+    "domains": ["github.com"],
+    "email": {
+      "status": "verified",
+      "steps": [
+        "Open your profile picture, then Settings, then Emails in the Access section.",
+        "Add the new address, choose it under Primary email address, and Save.",
+        "Remove the old address and verify the new one. GitHub says some features stay unavailable until the new address is verified."
+      ],
+      "url": "https://docs.github.com/en/account-and-profile/how-tos/email-preferences/changing-your-primary-email-address"
+    },
+    "export": {
+      "status": "verified",
+      "steps": [
+        "Open Settings, then Account. Under Export account data, start an export.",
+        "GitHub emails a tar.gz link to the primary address. The link expires after seven days by default."
+      ],
+      "url": "https://docs.github.com/en/get-started/archiving-your-github-personal-account-and-public-repositories/requesting-an-archive-of-your-personal-accounts-data"
+    },
+    "education": {
+      "available": "yes",
+      "impact": "GitHub Education says some schools require a verified academic email before a student application. The application page reviewed on 2026-10-19 does not say whether a benefit already granted ends when the email changes.",
+      "url": "https://docs.github.com/en/education/about-github-education/github-education-for-students/apply-to-github-education-as-a-student"
+    },
+    "deletion": {
+      "status": "unverified",
+      "steps": ["Unverified. A current official procedure was not confirmed on 2026-10-19."]
+    },
+    "verifiedAt": "2026-10-19",
+    "sources": [
+      "https://docs.github.com/en/account-and-profile/how-tos/email-preferences/changing-your-primary-email-address",
+      "https://docs.github.com/en/get-started/archiving-your-github-personal-account-and-public-repositories/requesting-an-archive-of-your-personal-accounts-data",
+      "https://docs.github.com/en/education/about-github-education/github-education-for-students/apply-to-github-education-as-a-student"
+    ]
+  },
+  {
+    "id": "gitlab",
+    "name": "GitLab",
+    "category": "Development",
+    "domains": ["gitlab.com"],
+    "email": {
+      "status": "verified",
+      "steps": [
+        "On GitLab.com, open your avatar, Edit profile, and replace the Email field, then Update profile settings.",
+        "Confirm the address if you have not added it before. GitLab says the previous primary email becomes a secondary email.",
+        "Secondary addresses can reset a password but are not used to sign in."
+      ],
+      "url": "https://docs.gitlab.com/user/profile/"
+    },
+    "export": {
+      "status": "verified",
+      "steps": [
+        "A project Maintainer or Owner can export from Settings, General, Advanced, Export project.",
+        "GitLab says the export omits some items and should not be treated as a complete backup. Download it from the email link or the project settings page."
+      ],
+      "url": "https://docs.gitlab.com/user/project/settings/import_export/"
+    },
+    "education": {
+      "available": "unverified",
+      "impact": "Unverified. No current official note about a student plan or email-change effect was confirmed on 2026-10-19."
+    },
+    "deletion": {
+      "status": "unverified",
+      "steps": ["Unverified. A current official procedure was not confirmed on 2026-10-19."]
+    },
+    "verifiedAt": "2026-10-19",
+    "sources": [
+      "https://docs.gitlab.com/user/profile/",
+      "https://docs.gitlab.com/user/project/settings/import_export/"
+    ]
+  },
+  {
+    "id": "npm",
+    "name": "npm",
+    "category": "Development",
+    "domains": ["npmjs.com"],
+    "email": {
+      "status": "verified",
+      "steps": [
+        "From npm 5.5.1 or newer, run npm profile set email followed by the new address. npm then asks for the current password and a one-time password if two-factor authentication is on.",
+        "On the web, sign in, open your profile picture, then Account. npm\u2019s profile page lists the email stored in package metadata among the settings managed there.",
+        "If you cannot reach the old inbox, npm\u2019s recovery page says to start account recovery and submit a ticket with Reset my email."
+      ],
+      "url": "https://docs.npmjs.com/managing-your-profile-settings/"
+    },
+    "export": {
+      "status": "unverified",
+      "steps": ["Unverified. A current official procedure was not confirmed on 2026-10-19."]
+    },
+    "education": {
+      "available": "unverified",
+      "impact": "Unverified. No current official note about a student plan or email-change effect was confirmed on 2026-10-19."
+    },
+    "deletion": {
+      "status": "unverified",
+      "steps": ["Unverified. A current official procedure was not confirmed on 2026-10-19."]
+    },
+    "verifiedAt": "2026-10-19",
+    "sources": [
+      "https://docs.npmjs.com/managing-your-profile-settings/",
+      "https://docs.npmjs.com/receiving-a-one-time-password-over-email/"
+    ]
+  },
+  {
+    "id": "apple",
+    "name": "Apple Account",
+    "category": "Cloud storage",
+    "domains": ["apple.com", "icloud.com"],
+    "email": {
+      "status": "verified",
+      "steps": [
+        "On iPhone, iPad, or Mac, open Settings or System Settings, your name, then Sign-In & Security.",
+        "Open the primary email. Remove it or turn off Primary Email, then verify the replacement.",
+        "Apple says purchases and other account data stay, and an address already used by another Apple Account cannot be chosen.",
+        "Apple says the website may send you to a trusted device instead of changing the address in the browser."
+      ],
+      "url": "https://support.apple.com/en-us/109353"
+    },
+    "export": {
+      "status": "verified",
+      "steps": [
+        "Sign in at Apple\u2019s Data and Privacy page. Apple says the tools include getting a copy of data stored with the Apple Account.",
+        "The same page says some regions can schedule a one-time or recurring copy of certain data."
+      ],
+      "url": "https://support.apple.com/en-us/102283"
+    },
+    "education": {
+      "available": "unverified",
+      "impact": "Unverified. No current official note about a student plan or email-change effect was confirmed on 2026-10-19."
+    },
+    "deletion": {
+      "status": "verified",
+      "steps": [
+        "Apple\u2019s Data and Privacy page includes a control to delete the Apple Account and the data associated with it."
+      ],
+      "url": "https://support.apple.com/en-us/102283"
+    },
+    "verifiedAt": "2026-10-19",
+    "sources": ["https://support.apple.com/en-us/109353", "https://support.apple.com/en-us/102283"]
+  },
+  {
+    "id": "zoom",
+    "name": "Zoom",
+    "category": "Productivity",
+    "domains": ["zoom.us"],
+    "email": {
+      "status": "verified",
+      "steps": [
+        "Sign in to the Zoom web portal, open your profile picture, then Profile.",
+        "Under Sign In, choose Edit next to Sign-In Email, enter the new address and password, and Save Changes.",
+        "Confirm the message sent to the old address and the message sent to the new address. Zoom says the address does not change until both are confirmed.",
+        "If the account is single sign-on only, Zoom says to change the address at the identity provider and then contact Zoom Support. A free Basic account without the old inbox has to create a new account. A paid account can use billing details for recovery."
+      ],
+      "url": "https://support.zoom.com/hc/en/article?id=zm_kb&sysparm_article=KB0063624"
+    },
+    "export": {
+      "status": "unverified",
+      "steps": ["Unverified. A current official procedure was not confirmed on 2026-10-19."]
+    },
+    "education": {
+      "available": "unverified",
+      "impact": "Unverified. No current official note about a student plan or email-change effect was confirmed on 2026-10-19."
+    },
+    "deletion": {
+      "status": "unverified",
+      "steps": ["Unverified. A current official procedure was not confirmed on 2026-10-19."]
+    },
+    "verifiedAt": "2026-10-19",
+    "sources": ["https://support.zoom.com/hc/en/article?id=zm_kb&sysparm_article=KB0063624"]
+  },
+  {
+    "id": "spotify",
+    "name": "Spotify",
+    "category": "Entertainment",
+    "domains": ["spotify.com"],
+    "email": {
+      "status": "verified",
+      "steps": [
+        "Open Edit personal info, enter the new email under Email, confirm your password, and Save profile.",
+        "In the app: profile picture, Settings and privacy, Account, then the email field.",
+        "Spotify\u2019s login article says that after 1 September 2026 username login is replaced by email login, so the address on the account should be one you can open."
+      ],
+      "url": "https://support.spotify.com/us/article/change-email-address/"
+    },
+    "export": {
+      "status": "verified",
+      "steps": [
+        "Spotify says you can download a ZIP of personal data with the automated Download your data tool on the Account Privacy page, or by contacting Spotify."
+      ],
+      "url": "https://support.spotify.com/us/article/data-rights-and-privacy-settings/"
+    },
+    "education": {
+      "available": "unverified",
+      "impact": "Unverified. No current official note about a student plan or email-change effect was confirmed on 2026-10-19."
+    },
+    "deletion": {
+      "status": "unverified",
+      "steps": ["Unverified. A current official procedure was not confirmed on 2026-10-19."]
+    },
+    "verifiedAt": "2026-10-19",
+    "sources": [
+      "https://support.spotify.com/us/article/change-email-address/",
+      "https://support.spotify.com/us/article/data-rights-and-privacy-settings/",
+      "https://support.spotify.com/us/article/changing-how-you-log-into-spotify/"
+    ]
+  },
+  {
+    "id": "figma",
+    "name": "Figma",
+    "category": "Design & creation",
+    "domains": ["figma.com"],
+    "email": {
+      "status": "verified",
+      "steps": [
+        "If the account uses an email and password, open the file browser, your profile, Settings, then the Account tab.",
+        "Choose Change email under the address and Save. Figma says to contact support if you cannot open the current inbox.",
+        "Google or SAML sign-in follows that provider. Figma says the sign-in method decides whether the address can be edited in Figma."
+      ],
+      "url": "https://help.figma.com/hc/en-us/articles/360039820114-Manage-email-address-or-password"
+    },
+    "export": {
+      "status": "verified",
+      "steps": [
+        "Figma\u2019s export help says people with access can export assets unless the owner has turned export off.",
+        "Export is for sharing a design, moving it to another tool, or keeping a copy outside Figma. This is a design-file export, not a full account archive."
+      ],
+      "url": "https://help.figma.com/hc/en-us/articles/360040028114-Export-static-designs-from-Figma"
+    },
+    "education": {
+      "available": "unverified",
+      "impact": "Unverified. No current official note about a student plan or email-change effect was confirmed on 2026-10-19."
+    },
+    "deletion": {
+      "status": "unverified",
+      "steps": ["Unverified. A current official procedure was not confirmed on 2026-10-19."]
+    },
+    "verifiedAt": "2026-10-19",
+    "sources": [
+      "https://help.figma.com/hc/en-us/articles/360039820114-Manage-email-address-or-password",
+      "https://help.figma.com/hc/en-us/articles/360040028114-Export-static-designs-from-Figma"
+    ]
+  },
+  {
+    "id": "canva",
+    "name": "Canva",
+    "category": "Design & creation",
+    "domains": ["canva.com"],
+    "email": {
+      "status": "verified",
+      "steps": [
+        "On the homepage, open your profile, Your account, Your profile, then Edit next to the email address.",
+        "Canva sends a code to the current address, then a code to the new address. The new address must not already belong to a Canva account.",
+        "Canva says affiliated or managed users need an organization admin to approve an email change.",
+        "If you no longer have the current inbox, use Canva\u2019s account-recovery article rather than this form."
+      ],
+      "url": "https://www.canva.com/help/change-email/"
+    },
+    "export": {
+      "status": "unverified",
+      "steps": ["Unverified. A current official procedure was not confirmed on 2026-10-19."]
+    },
+    "education": {
+      "available": "unverified",
+      "impact": "Unverified. No current official note about a student plan or email-change effect was confirmed on 2026-10-19."
+    },
+    "deletion": {
+      "status": "unverified",
+      "steps": ["Unverified. A current official procedure was not confirmed on 2026-10-19."]
+    },
+    "verifiedAt": "2026-10-19",
+    "sources": ["https://www.canva.com/help/change-email/"]
+  },
+  {
+    "id": "miro",
+    "name": "Miro",
+    "category": "Design & creation",
+    "domains": ["miro.com"],
+    "email": {
+      "status": "verified",
+      "steps": [
+        "In Profile settings, choose Change in the Email section and send a verification code to the current address.",
+        "Enter the new address and the code, then Update email. Confirm the link sent to the new address while still signed in with the old one.",
+        "Miro says single sign-on addresses are changed by the identity provider and Miro Support, not in Profile settings.",
+        "An enterprise domain-control error also has to go through Miro Support."
+      ],
+      "url": "https://help.miro.com/hc/en-us/articles/360011781980-How-to-change-your-email"
+    },
+    "export": {
+      "status": "unverified",
+      "steps": ["Unverified. A current official procedure was not confirmed on 2026-10-19."]
+    },
+    "education": {
+      "available": "unverified",
+      "impact": "Unverified. No current official note about a student plan or email-change effect was confirmed on 2026-10-19."
+    },
+    "deletion": {
+      "status": "unverified",
+      "steps": ["Unverified. A current official procedure was not confirmed on 2026-10-19."]
+    },
+    "verifiedAt": "2026-10-19",
+    "sources": ["https://help.miro.com/hc/en-us/articles/360011781980-How-to-change-your-email"]
+  },
+  {
+    "id": "adobe",
+    "name": "Adobe",
+    "category": "Design & creation",
+    "domains": ["adobe.com"],
+    "email": {
+      "status": "verified",
+      "steps": [
+        "Sign in and open Account information and access. Choose Change next to Primary email.",
+        "Enter a new address that is not already an Adobe ID, then enter the verification code within 10 minutes.",
+        "Adobe says Teams or Enterprise users ask their Adobe admin instead.",
+        "An address already used on another Adobe account must be removed there first."
+      ],
+      "url": "https://helpx.adobe.com/account/individual/manage-your-account/change-primary-email-adobe-account.html"
+    },
+    "export": {
+      "status": "unverified",
+      "steps": ["Unverified. A current official procedure was not confirmed on 2026-10-19."]
+    },
+    "education": {
+      "available": "unverified",
+      "impact": "Unverified. No current official note about a student plan or email-change effect was confirmed on 2026-10-19."
+    },
+    "deletion": {
+      "status": "unverified",
+      "steps": ["Unverified. A current official procedure was not confirmed on 2026-10-19."]
+    },
+    "verifiedAt": "2026-10-19",
+    "sources": [
+      "https://helpx.adobe.com/account/individual/manage-your-account/change-primary-email-adobe-account.html"
+    ]
+  },
+  {
+    "id": "linkedin",
+    "name": "LinkedIn",
+    "category": "Productivity",
+    "domains": ["linkedin.com"],
+    "email": {
+      "status": "verified",
+      "steps": [
+        "Open Me, Settings & Privacy, Sign in & security, then Email addresses.",
+        "Add the new address. LinkedIn may send a code to the current primary address or ask you to approve it in the app.",
+        "Open the validation message, then choose Make primary. LinkedIn says the primary address can only be replaced by a verified address."
+      ],
+      "url": "https://www.linkedin.com/help/linkedin/answer/a519904"
+    },
+    "export": {
+      "status": "verified",
+      "steps": [
+        "Open Me, Settings & Privacy, Data Privacy, then Download your data and Request archive.",
+        "LinkedIn says a narrow download arrives within minutes and a larger one within 24 hours. The link works for 72 hours. Do this from a private computer; the control is not on mobile."
+      ],
+      "url": "https://www.linkedin.com/help/linkedin/answer/a1339364"
+    },
+    "education": {
+      "available": "unverified",
+      "impact": "Unverified. No current official note about a student plan or email-change effect was confirmed on 2026-10-19."
+    },
+    "deletion": {
+      "status": "unverified",
+      "steps": ["Unverified. A current official procedure was not confirmed on 2026-10-19."]
+    },
+    "verifiedAt": "2026-10-19",
+    "sources": [
+      "https://www.linkedin.com/help/linkedin/answer/a519904",
+      "https://www.linkedin.com/help/linkedin/answer/a1339364"
+    ]
+  },
+  {
+    "id": "discord",
+    "name": "Discord",
+    "category": "Entertainment",
+    "domains": ["discord.com", "discordapp.com"],
+    "email": {
+      "status": "verified",
+      "steps": [
+        "Discord says support cannot change the address for you. You need the current inbox.",
+        "On desktop, open User Settings, My Account, and Edit next to the email. Follow the prompt and confirm the message sent to the new address.",
+        "On mobile, open your avatar, the settings gear, Account, then the current email."
+      ],
+      "url": "https://support.discord.com/hc/en-us/articles/4423385681175-How-to-Change-your-Discord-Account-s-Email"
+    },
+    "export": {
+      "status": "unverified",
+      "steps": ["Unverified. A current official procedure was not confirmed on 2026-10-19."]
+    },
+    "education": {
+      "available": "unverified",
+      "impact": "Unverified. No current official note about a student plan or email-change effect was confirmed on 2026-10-19."
+    },
+    "deletion": {
+      "status": "unverified",
+      "steps": ["Unverified. A current official procedure was not confirmed on 2026-10-19."]
+    },
+    "verifiedAt": "2026-10-19",
+    "sources": [
+      "https://support.discord.com/hc/en-us/articles/4423385681175-How-to-Change-your-Discord-Account-s-Email"
+    ]
+  },
+  {
+    "id": "coursera",
+    "name": "Coursera",
+    "category": "Learning",
+    "domains": ["coursera.org"],
+    "email": {
+      "status": "unverified",
+      "steps": [
+        "Unverified. On 2026-10-19 this Coursera article returned a loading shell, so the email steps were not confirmed."
+      ],
+      "url": "https://www.coursera.support/s/article/learner-000001383?language=en_US"
+    },
+    "export": {
+      "status": "unverified",
+      "steps": ["Unverified. A current official procedure was not confirmed on 2026-10-19."]
+    },
+    "education": {
+      "available": "unverified",
+      "impact": "Unverified. On 2026-10-19 this Coursera article returned a loading shell, so a student-plan effect was not confirmed.",
+      "url": "https://www.coursera.support/s/article/learner-000001383?language=en_US"
+    },
+    "deletion": {
+      "status": "unverified",
+      "steps": ["Unverified. A current official procedure was not confirmed on 2026-10-19."]
+    },
+    "verifiedAt": "2026-10-19",
+    "sources": ["https://www.coursera.support/s/article/learner-000001383?language=en_US"]
+  },
+  {
+    "id": "khan",
+    "name": "Khan Academy",
+    "category": "Learning",
+    "domains": ["khanacademy.org"],
+    "email": {
+      "status": "verified",
+      "steps": [
+        "Create a password if the account does not have one, then choose Connect another email.",
+        "Re-authenticate, open the Email tab, and set Send email to the new address. You can then remove the old one.",
+        "Khan Academy says an address already used on another account cannot be added until that account is deleted or changed. Learners under 13 cannot edit these settings themselves."
+      ],
+      "url": "https://support.khanacademy.org/hc/en-us/articles/202487580-How-do-I-change-the-email-address-I-use-to-log-in-to-my-account"
+    },
+    "export": {
+      "status": "unverified",
+      "steps": ["Unverified. A current official procedure was not confirmed on 2026-10-19."]
+    },
+    "education": {
+      "available": "unverified",
+      "impact": "Unverified. No current official note about a student plan or email-change effect was confirmed on 2026-10-19."
+    },
+    "deletion": {
+      "status": "verified",
+      "steps": [
+        "Khan Academy\u2019s settings article says people 13 or older can permanently delete the account from Settings. Younger learners need a parent or teacher to change the account."
+      ],
+      "url": "https://support.khanacademy.org/hc/en-us/articles/204707040-How-can-I-edit-my-account-settings"
+    },
+    "verifiedAt": "2026-10-19",
+    "sources": [
+      "https://support.khanacademy.org/hc/en-us/articles/202487580-How-do-I-change-the-email-address-I-use-to-log-in-to-my-account",
+      "https://support.khanacademy.org/hc/en-us/articles/204707040-How-can-I-edit-my-account-settings"
+    ]
+  },
+  {
+    "id": "quizlet",
+    "name": "Quizlet",
+    "category": "Learning",
+    "domains": ["quizlet.com"],
+    "email": {
+      "status": "verified",
+      "steps": [
+        "On the web, open Settings, Change your email, enter the new address and password, and Submit.",
+        "In the iOS or Android app, open Profile, Email, enter the password and new address, and save.",
+        "Quizlet says some accounts that stored a parent email do not show this control. A parent has to contact Quizlet."
+      ],
+      "url": "https://help.quizlet.com/hc/en-us/articles/360029104772-Changing-your-email-address"
+    },
+    "export": {
+      "status": "unverified",
+      "steps": ["Unverified. A current official procedure was not confirmed on 2026-10-19."]
+    },
+    "education": {
+      "available": "unverified",
+      "impact": "Unverified. No current official note about a student plan or email-change effect was confirmed on 2026-10-19."
+    },
+    "deletion": {
+      "status": "unverified",
+      "steps": ["Unverified. A current official procedure was not confirmed on 2026-10-19."]
+    },
+    "verifiedAt": "2026-10-19",
+    "sources": [
+      "https://help.quizlet.com/hc/en-us/articles/360029104772-Changing-your-email-address"
+    ]
+  },
+  {
+    "id": "turnitin",
+    "name": "Turnitin",
+    "category": "Campus",
+    "domains": ["turnitin.com"],
+    "email": {
+      "status": "verified",
+      "steps": [
+        "The guide reviewed on 2026-10-19 says to sign in at https://home.turnitin.com/ and open your name or User Info.",
+        "Choose Update your email. The current inbox receives a link that expires in one hour. Open it, enter the new address, and continue.",
+        "Turnitin says open sessions signed in with the old address end. Finish work first."
+      ],
+      "url": "https://guides.turnitin.com/hc/en-us/articles/23962693684237-Changing-your-security-information"
+    },
+    "export": {
+      "status": "unverified",
+      "steps": ["Unverified. A current official procedure was not confirmed on 2026-10-19."]
+    },
+    "education": {
+      "available": "unverified",
+      "impact": "Turnitin is often provided by a school. Whether your school lets you change the address was not confirmed beyond Turnitin\u2019s own user guide."
+    },
+    "deletion": {
+      "status": "unverified",
+      "steps": ["Unverified. A current official procedure was not confirmed on 2026-10-19."]
+    },
+    "verifiedAt": "2026-10-19",
+    "sources": [
+      "https://guides.turnitin.com/hc/en-us/articles/23962693684237-Changing-your-security-information"
+    ]
+  },
+  {
+    "id": "zotero",
+    "name": "Zotero",
+    "category": "Learning",
+    "domains": ["zotero.org"],
+    "email": {
+      "status": "verified",
+      "steps": [
+        "Add the new address in Zotero\u2019s email settings and open the verification link in a browser where you are signed in.",
+        "Zotero says any verified address can sign in, complete two-step checks, and reset the password.",
+        "Zotero recommends a backup address when the primary one is a work or school inbox."
+      ],
+      "url": "https://www.zotero.org/support/kb/change_email"
+    },
+    "export": {
+      "status": "unverified",
+      "steps": ["Unverified. A current official procedure was not confirmed on 2026-10-19."]
+    },
+    "education": {
+      "available": "unverified",
+      "impact": "Unverified as a student plan. Zotero\u2019s email article, updated 2026-09-29, recommends a backup address because an institutional inbox may change. That page does not document a student discount.",
+      "url": "https://www.zotero.org/support/kb/change_email"
+    },
+    "deletion": {
+      "status": "unverified",
+      "steps": ["Unverified. A current official procedure was not confirmed on 2026-10-19."]
+    },
+    "verifiedAt": "2026-10-19",
+    "sources": ["https://www.zotero.org/support/kb/change_email"]
+  },
+  {
+    "id": "orcid",
+    "name": "ORCID",
+    "category": "Learning",
+    "domains": ["orcid.org"],
+    "email": {
+      "status": "verified",
+      "steps": [
+        "On your ORCID record, open the pencil on Emails.",
+        "Add the new address, save, and verify it from the message ORCID sends. Then delete the old address and save again.",
+        "ORCID says an outdated only address can lock you out of the iD."
+      ],
+      "url": "https://support.orcid.org/hc/en-us/articles/18501349590295-Managing-associated-email-addresses"
+    },
+    "export": {
+      "status": "unverified",
+      "steps": ["Unverified. A current official procedure was not confirmed on 2026-10-19."]
+    },
+    "education": {
+      "available": "unverified",
+      "impact": "Unverified. No current official note about a student plan or email-change effect was confirmed on 2026-10-19."
+    },
+    "deletion": {
+      "status": "unverified",
+      "steps": ["Unverified. A current official procedure was not confirmed on 2026-10-19."]
+    },
+    "verifiedAt": "2026-10-19",
+    "sources": [
+      "https://support.orcid.org/hc/en-us/articles/18501349590295-Managing-associated-email-addresses"
+    ]
+  },
+  {
+    "id": "overleaf",
+    "name": "Overleaf",
+    "category": "Learning",
+    "domains": ["overleaf.com"],
+    "email": {
+      "status": "verified",
+      "steps": [
+        "Overleaf\u2019s account page says most users can update the email addresses and login methods on the account.",
+        "A Professional group can turn the account into a managed account. Overleaf says managed accounts cannot add or change email addresses.",
+        "The detailed button labels were not included in the page text fetched on 2026-10-19. Use the official page rather than a guessed menu path."
+      ],
+      "url": "https://docs.overleaf.com/accounts-and-security/email-address-and-login-options"
+    },
+    "export": {
+      "status": "unverified",
+      "steps": ["Unverified. A current official procedure was not confirmed on 2026-10-19."]
+    },
+    "education": {
+      "available": "unverified",
+      "impact": "Overleaf documents managed group accounts, which can block email changes. A separate student-plan rule was not confirmed."
+    },
+    "deletion": {
+      "status": "unverified",
+      "steps": ["Unverified. A current official procedure was not confirmed on 2026-10-19."]
+    },
+    "verifiedAt": "2026-10-19",
+    "sources": ["https://docs.overleaf.com/accounts-and-security/email-address-and-login-options"]
+  },
+  {
+    "id": "moodle",
+    "name": "Moodle",
+    "category": "Campus",
+    "domains": ["moodle.org"],
+    "email": {
+      "status": "verified",
+      "steps": [
+        "Moodle Docs says to open the user menu and Edit profile. Email address is one of the required general fields.",
+        "The same page says an administrator\u2019s authentication settings may block editing the email. If the field is locked, ask the school Moodle admin.",
+        "Choose Update profile when the form can be edited. A school Moodle site may live on the school\u2019s own domain, so a mailbox from that domain can stay unrecognized until you classify it."
+      ],
+      "url": "https://docs.moodle.org/en/Edit_profile"
+    },
+    "export": {
+      "status": "unverified",
+      "steps": ["Unverified. A current official procedure was not confirmed on 2026-10-19."]
+    },
+    "education": {
+      "available": "unverified",
+      "impact": "Moodle is usually run by the school. Docs confirm admins can lock the email field. Site-specific retention was not confirmed."
+    },
+    "deletion": {
+      "status": "verified",
+      "steps": [
+        "Moodle Docs says an administrator can disable an account by setting authentication to No login. That is an admin action, not a self-serve delete button described on the page."
+      ],
+      "url": "https://docs.moodle.org/en/Edit_profile"
+    },
+    "verifiedAt": "2026-10-19",
+    "sources": ["https://docs.moodle.org/en/Edit_profile"]
+  },
+  {
+    "id": "slack",
+    "name": "Slack",
+    "category": "Productivity",
+    "domains": ["slack.com"],
+    "email": {
+      "status": "verified",
+      "steps": [
+        "Open my.slack.com/account. Expand Email Address, enter your password and the new address, and Update Email.",
+        "Confirm the message sent to the new address. If Slack asks you to sign in, use the old address, then Save.",
+        "Repeat while signed into each workspace. Slack says a workspace owner can block edits when single sign-on is on."
+      ],
+      "url": "https://slack.com/help/articles/207262907-Change-your-email-address"
+    },
+    "export": {
+      "status": "verified",
+      "steps": [
+        "On a computer, a Workspace Owner or Admin clicks Admin in the sidebar, then Workspace settings, Security, Import & export data, and the Export tab. Choose a date range, then Start Export. Slack emails you when the ZIP is ready. Open the email, visit the export page, and choose Ready for download.",
+        "On Free and Pro, Owners and Admins can export public-channel messages and file links as JSON. A Free workspace can only export file links from the last 90 days. Private channels and direct messages are not in that export. Business+ all-channels and direct-message exports require the Workspace Owner to apply. On Enterprise, Org Owners request the export tools, and a member with the Export Admin system role can also export. A regular member cannot export other people's direct messages."
+      ],
+      "url": "https://slack.com/help/articles/201658943-export-your-workspace-data"
+    },
+    "education": {
+      "available": "unverified",
+      "impact": "Unverified. No current official note about a student plan or email-change effect was confirmed on 2026-10-19."
+    },
+    "deletion": {
+      "status": "unverified",
+      "steps": ["Unverified. A current official procedure was not confirmed on 2026-10-19."]
+    },
+    "verifiedAt": "2026-10-19",
+    "sources": [
+      "https://slack.com/help/articles/207262907-Change-your-email-address",
+      "https://slack.com/help/articles/201658943-export-your-workspace-data"
+    ]
+  },
+  {
+    "id": "notion",
+    "name": "Notion",
+    "category": "Productivity",
+    "domains": ["notion.so"],
+    "email": {
+      "status": "verified",
+      "steps": [
+        "Open Settings from the workspace name, then your name, Account security, Manage emails.",
+        "Add the new address, enter the code sent to it, then Make primary from its menu. Remove the old address if you want.",
+        "Notion says an address already used on another account must be removed there first, from Settings, your name, Delete my account.",
+        "Enterprise admins can disable aliases or limit them to verified domains."
+      ],
+      "url": "https://www.notion.com/help/account-settings"
+    },
+    "export": {
+      "status": "verified",
+      "steps": [
+        "A workspace export is under Settings, Workspace, General, Export all workspace content.",
+        "Notion emails a download link that expires after 7 days. Notion says the export can be HTML, Markdown, or CSV, and PDF on Business or Enterprise. Other people\u2019s private pages are not included. Desktop or web only."
+      ],
+      "url": "https://www.notion.com/help/workspace-settings"
+    },
+    "education": {
+      "available": "unverified",
+      "impact": "Unverified. No current official note about a student plan or email-change effect was confirmed on 2026-10-19."
+    },
+    "deletion": {
+      "status": "verified",
+      "steps": [
+        "Notion\u2019s account article says an unwanted account is removed from Settings, your name, Delete my account."
+      ],
+      "url": "https://www.notion.com/help/account-settings"
+    },
+    "verifiedAt": "2026-10-19",
+    "sources": [
+      "https://www.notion.com/help/account-settings",
+      "https://www.notion.com/help/workspace-settings"
+    ]
+  },
+  {
+    "id": "openai",
+    "name": "ChatGPT",
+    "category": "Productivity",
+    "domains": ["openai.com"],
+    "email": {
+      "status": "unverified",
+      "steps": ["Unverified. A current official procedure was not confirmed on 2026-10-19."]
+    },
+    "export": {
+      "status": "verified",
+      "steps": [
+        "Sign in to ChatGPT, open Settings, Data controls, Export, then Confirm export.",
+        "OpenAI says the export email or SMS can take up to 7 days. The download link expires 24 hours after it arrives, and you download it while signed into the same account.",
+        "Business, Enterprise, and ChatGPT for Healthcare workspaces do not have this self-serve export. Ask the workspace owner.",
+        "The Privacy Portal path is Make a Privacy Request, consumer ChatGPT account, Download my data."
+      ],
+      "url": "https://help.openai.com/en/articles/7260999-exporting-your-chatgpt-history-and-data"
+    },
+    "education": {
+      "available": "unverified",
+      "impact": "Unverified. No current official note about a student plan or email-change effect was confirmed on 2026-10-19."
+    },
+    "deletion": {
+      "status": "unverified",
+      "steps": ["Unverified. A current official procedure was not confirmed on 2026-10-19."]
+    },
+    "verifiedAt": "2026-10-19",
+    "sources": [
+      "https://help.openai.com/en/articles/7260999-exporting-your-chatgpt-history-and-data"
+    ]
+  },
+  {
+    "id": "todoist",
+    "name": "Todoist",
+    "category": "Productivity",
+    "domains": ["todoist.com"],
+    "email": {
+      "status": "verified",
+      "steps": [
+        "Open your avatar, Settings, then Change email. Enter the new address twice and your password.",
+        "Todoist sends a verification link to the new address only. The help article updated 7 October 2026 says you do not need the old inbox for that confirmation.",
+        "Google, Facebook, or Apple sign-in needs a Todoist password first. Two-factor accounts also need an authenticator code."
+      ],
+      "url": "https://www.todoist.com/help/account-and-billing/account/change-your-email-address-OgNcgI"
+    },
+    "export": {
+      "status": "unverified",
+      "steps": ["Unverified. A current official procedure was not confirmed on 2026-10-19."]
+    },
+    "education": {
+      "available": "unverified",
+      "impact": "Unverified. No current official note about a student plan or email-change effect was confirmed on 2026-10-19."
+    },
+    "deletion": {
+      "status": "unverified",
+      "steps": ["Unverified. A current official procedure was not confirmed on 2026-10-19."]
+    },
+    "verifiedAt": "2026-10-19",
+    "sources": [
+      "https://www.todoist.com/help/account-and-billing/account/change-your-email-address-OgNcgI"
+    ]
+  },
+  {
+    "id": "trello",
+    "name": "Trello",
+    "category": "Productivity",
+    "domains": ["trello.com"],
+    "email": {
+      "status": "verified",
+      "steps": [
+        "Trello says the login email is the Atlassian account email. Change it on the Atlassian account, which also changes other Atlassian apps.",
+        "An address already used by another Trello account cannot be used. Google sign-in needs a password before the email can change.",
+        "If a company has verified the email domain, Trello says that company\u2019s admin can deactivate or delete the account. Trello recommends a personal address for personal boards."
+      ],
+      "url": "https://support.atlassian.com/trello/docs/changing-an-email-address/"
+    },
+    "export": {
+      "status": "unverified",
+      "steps": ["Unverified. A current official procedure was not confirmed on 2026-10-19."]
+    },
+    "education": {
+      "available": "unverified",
+      "impact": "Unverified as a student plan. Trello\u2019s email article says a verified company domain lets that organization\u2019s admin manage or delete the account. That page does not document a student discount.",
+      "url": "https://support.atlassian.com/trello/docs/changing-an-email-address/"
+    },
+    "deletion": {
+      "status": "unverified",
+      "steps": ["Unverified. A current official procedure was not confirmed on 2026-10-19."]
+    },
+    "verifiedAt": "2026-10-19",
+    "sources": ["https://support.atlassian.com/trello/docs/changing-an-email-address/"]
+  },
+  {
+    "id": "wordpress",
+    "name": "WordPress.com",
+    "category": "Development",
+    "domains": ["wordpress.com"],
+    "email": {
+      "status": "verified",
+      "steps": [
+        "While signed in, open your name, My WordPress.com account, replace Email address, and Save.",
+        "Open the confirmation sent to the new address. WordPress.com says that if the link asks you to sign in, use the old address.",
+        "WordPress.com recommends a personal inbox because a school or work address can lock the account when it stops.",
+        "Closing an account does not free the address for 30 days."
+      ],
+      "url": "https://wordpress.com/support/email-address/"
+    },
+    "export": {
+      "status": "unverified",
+      "steps": ["Unverified. A current official procedure was not confirmed on 2026-10-19."]
+    },
+    "education": {
+      "available": "unverified",
+      "impact": "Unverified as a student plan. WordPress.com\u2019s email guide, reviewed 5 October 2026, warns that a school or work address can strand the account. That page does not document a student discount.",
+      "url": "https://wordpress.com/support/email-address/"
+    },
+    "deletion": {
+      "status": "unverified",
+      "steps": ["Unverified. A current official procedure was not confirmed on 2026-10-19."]
+    },
+    "verifiedAt": "2026-10-19",
+    "sources": ["https://wordpress.com/support/email-address/"]
+  },
+  {
+    "id": "grammarly",
+    "name": "Grammarly",
+    "category": "Productivity",
+    "domains": ["grammarly.com"],
+    "email": {
+      "status": "verified",
+      "steps": [
+        "On the Profile page, choose Update next to Email. Enter a verification code if asked, then the new address, and Update.",
+        "Open the confirmation link sent to the new address. An address already on another Grammarly account requires that other account to be deleted first.",
+        "Google, Facebook, or Apple registration needs a Grammarly password before the control appears.",
+        "An organizational subscription has to be removed by the admin and the person re-invited at the new address."
+      ],
+      "url": "https://support.grammarly.com/hc/en-us/articles/115000089932-I-need-to-change-my-email-address"
+    },
+    "export": {
+      "status": "unverified",
+      "steps": ["Unverified. A current official procedure was not confirmed on 2026-10-19."]
+    },
+    "education": {
+      "available": "unverified",
+      "impact": "Unverified as a student plan. Grammarly says an organizational subscription has to be removed by an admin before the email can change. That page does not document a student discount.",
+      "url": "https://support.grammarly.com/hc/en-us/articles/115000089932-I-need-to-change-my-email-address"
+    },
+    "deletion": {
+      "status": "unverified",
+      "steps": ["Unverified. A current official procedure was not confirmed on 2026-10-19."]
+    },
+    "verifiedAt": "2026-10-19",
+    "sources": [
+      "https://support.grammarly.com/hc/en-us/articles/115000089932-I-need-to-change-my-email-address"
+    ]
+  },
+  {
+    "id": "evernote",
+    "name": "Evernote",
+    "category": "Productivity",
+    "domains": ["evernote.com"],
+    "email": {
+      "status": "verified",
+      "steps": [
+        "Open Account Settings, Account Summary, and Edit next to the email. Evernote may ask you to sign in again.",
+        "Enter the new address and Continue. The change finishes only after you open the verification link and see Email successfully updated.",
+        "If that link shows a login page, Evernote says to sign in with the old address.",
+        "Google or Apple sign-in without a password needs the password-setup flow first. Teams or Enterprise addresses are changed by the team admin."
+      ],
+      "url": "https://help.evernote.com/hc/en-us/articles/208313338-Change-your-account-login-email-address"
+    },
+    "export": {
+      "status": "unverified",
+      "steps": ["Unverified. A current official procedure was not confirmed on 2026-10-19."]
+    },
+    "education": {
+      "available": "unverified",
+      "impact": "Unverified. No current official note about a student plan or email-change effect was confirmed on 2026-10-19."
+    },
+    "deletion": {
+      "status": "unverified",
+      "steps": ["Unverified. A current official procedure was not confirmed on 2026-10-19."]
+    },
+    "verifiedAt": "2026-10-19",
+    "sources": [
+      "https://help.evernote.com/hc/en-us/articles/208313338-Change-your-account-login-email-address"
+    ]
+  },
+  {
+    "id": "netflix",
+    "name": "Netflix",
+    "category": "Entertainment",
+    "domains": ["netflix.com"],
+    "email": {
+      "status": "unverified",
+      "steps": ["Unverified. A current official procedure was not confirmed on 2026-10-19."]
+    },
+    "export": {
+      "status": "verified",
+      "steps": [
+        "Account owners open https://www.netflix.com/account/getmyinfo and follow Netflix\u2019s instructions.",
+        "Netflix says a copy can take up to 30 days after they verify the request. Trouble goes to privacy@netflix.com.",
+        "A profile user who added an email asks privacy@netflix.com. Netflix says the account owner is told about that request."
+      ],
+      "url": "https://help.netflix.com/en/node/100624"
+    },
+    "education": {
+      "available": "unverified",
+      "impact": "Unverified. No current official note about a student plan or email-change effect was confirmed on 2026-10-19."
+    },
+    "deletion": {
+      "status": "unverified",
+      "steps": ["Unverified. A current official procedure was not confirmed on 2026-10-19."]
+    },
+    "verifiedAt": "2026-10-19",
+    "sources": ["https://help.netflix.com/en/node/100624"]
+  },
+  {
+    "id": "amazon",
+    "name": "Amazon",
+    "category": "Shopping & finance",
+    "domains": ["amazon.com"],
+    "email": {
+      "status": "unverified",
+      "steps": ["Unverified. A current official procedure was not confirmed on 2026-10-19."]
+    },
+    "export": {
+      "status": "verified",
+      "steps": [
+        "Amazon\u2019s Request Your Personal Information page says to open Request My Data, choose the information, and Submit Request while signed in.",
+        "Use the validation link in the confirmation email. Amazon then sends a secure download link to the account email."
+      ],
+      "url": "https://www.amazon.com/gp/help/customer/display.html?nodeId=G5NBVNN2RHXD5BUW"
+    },
+    "education": {
+      "available": "unverified",
+      "impact": "Unverified. No current official note about a student plan or email-change effect was confirmed on 2026-10-19."
+    },
+    "deletion": {
+      "status": "unverified",
+      "steps": ["Unverified. A current official procedure was not confirmed on 2026-10-19."]
+    },
+    "verifiedAt": "2026-10-19",
+    "sources": ["https://www.amazon.com/gp/help/customer/display.html?nodeId=G5NBVNN2RHXD5BUW"]
+  },
+  {
+    "id": "paypal",
+    "name": "PayPal",
+    "category": "Shopping & finance",
+    "domains": ["paypal.com"],
+    "email": {
+      "status": "unverified",
+      "steps": ["Unverified. A current official procedure was not confirmed on 2026-10-19."]
+    },
+    "export": {
+      "status": "verified",
+      "steps": [
+        "PayPal\u2019s US help says personal accounts open Settings, Data & Privacy, Download your data, choose options, and Submit Request.",
+        "PayPal says it checks identity before releasing data and may refuse a request it cannot verify."
+      ],
+      "url": "https://www.paypal.com/us/cshelp/article/how-can-i-access-my-personal-data-help366"
+    },
+    "education": {
+      "available": "unverified",
+      "impact": "Unverified. No current official note about a student plan or email-change effect was confirmed on 2026-10-19."
+    },
+    "deletion": {
+      "status": "unverified",
+      "steps": ["Unverified. A current official procedure was not confirmed on 2026-10-19."]
+    },
+    "verifiedAt": "2026-10-19",
+    "sources": [
+      "https://www.paypal.com/us/cshelp/article/how-can-i-access-my-personal-data-help366"
+    ]
+  },
+  {
+    "id": "reddit",
+    "name": "Reddit",
+    "category": "Entertainment",
+    "domains": ["reddit.com"],
+    "email": {
+      "status": "unverified",
+      "steps": ["Unverified. A current official procedure was not confirmed on 2026-10-19."]
+    },
+    "export": {
+      "status": "verified",
+      "steps": [
+        "On a computer, open https://www.reddit.com/settings/data-request, sign in, and submit the form.",
+        "Reddit\u2019s help article updated 19 March 2026 says preparation can take up to 30 days. The download link arrives in the Reddit inbox, or sometimes at a verified email.",
+        "Without account access, Reddit says to email redditdatarequests@reddit.com from the verified address."
+      ],
+      "url": "https://support.reddithelp.com/hc/en-us/articles/360043048352-How-do-I-request-a-copy-of-my-Reddit-data-and-information"
+    },
+    "education": {
+      "available": "unverified",
+      "impact": "Unverified. No current official note about a student plan or email-change effect was confirmed on 2026-10-19."
+    },
+    "deletion": {
+      "status": "unverified",
+      "steps": ["Unverified. A current official procedure was not confirmed on 2026-10-19."]
+    },
+    "verifiedAt": "2026-10-19",
+    "sources": [
+      "https://support.reddithelp.com/hc/en-us/articles/360043048352-How-do-I-request-a-copy-of-my-Reddit-data-and-information"
+    ]
+  },
+  {
+    "id": "pinterest",
+    "name": "Pinterest",
+    "category": "Entertainment",
+    "domains": ["pinterest.com"],
+    "email": {
+      "status": "verified",
+      "steps": [
+        "On the web, open Settings, Account management, replace the Email field, and Save. Business accounts start from the arrow at the top right instead of the bottom-left menu.",
+        "Enter the code from the message titled Your Pinterest verification code.",
+        "Pinterest says an address already used on another account must be deactivated there and then left unused for seven days. Without the current inbox, Pinterest says it cannot make the change."
+      ],
+      "url": "https://help.pinterest.com/en/article/manage-your-email-address"
+    },
+    "export": {
+      "status": "unverified",
+      "steps": ["Unverified. A current official procedure was not confirmed on 2026-10-19."]
+    },
+    "education": {
+      "available": "unverified",
+      "impact": "Unverified. No current official note about a student plan or email-change effect was confirmed on 2026-10-19."
+    },
+    "deletion": {
+      "status": "unverified",
+      "steps": ["Unverified. A current official procedure was not confirmed on 2026-10-19."]
+    },
+    "verifiedAt": "2026-10-19",
+    "sources": ["https://help.pinterest.com/en/article/manage-your-email-address"]
+  }
+]
